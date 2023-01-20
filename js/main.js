@@ -8,7 +8,24 @@
 
 
 //non credo sia importante : PROVO PROMPT
-let username = prompt('come ti chiami?');
-console.log(username);
+//let username = prompt('come ti chiami?');
+//console.log(username);
 // subito non funzionava: REGOLA POSSIBILE:
 //DEVO METTERE CONSOLE DOPO LA VARIABILE CHE LA DESCRIVE E MAI PRIMA
+
+
+
+/////////////TRACCIA/////////////
+//Chiedi all'utente il suo nome,
+//poi chiedi il suo cognome,
+//poi chiedi il suo colore preferito,
+//infine scrivi sulla pagina nomecognomecolorepreferito23
+
+/////////////INIZIO ESERCIZIO///////////////
+let nome = prompt ('Come ti chiami?');
+let cognome = prompt ('E il tuo cognome?');
+let color = prompt ('Qual è il tuo colore preferito?');
+let num = 23;
+
+
+console.log( nome + cognome + color + num );
